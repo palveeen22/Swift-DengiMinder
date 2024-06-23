@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81DBB0572C2861A000EB3D63 /* DengiMinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DBB0562C2861A000EB3D63 /* DengiMinderApp.swift */; };
+		81DBB0592C2861A000EB3D63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DBB0582C2861A000EB3D63 /* ContentView.swift */; };
+		81DBB05B2C2861A200EB3D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81DBB05A2C2861A200EB3D63 /* Assets.xcassets */; };
+		81DBB05E2C2861A200EB3D63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81DBB05D2C2861A200EB3D63 /* Preview Assets.xcassets */; };
+		81DBB0682C2861A300EB3D63 /* DengiMinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DBB0672C2861A300EB3D63 /* DengiMinderTests.swift */; };
+		81DBB0722C2861A300EB3D63 /* DengiMinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DBB0712C2861A300EB3D63 /* DengiMinderUITests.swift */; };
+		81DBB0742C2861A300EB3D63 /* DengiMinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DBB0732C2861A300EB3D63 /* DengiMinderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81DBB0642C2861A300EB3D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81DBB04B2C2861A000EB3D63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81DBB0522C2861A000EB3D63;
+			remoteInfo = DengiMinder;
+		};
+		81DBB06E2C2861A300EB3D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81DBB04B2C2861A000EB3D63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81DBB0522C2861A000EB3D63;
+			remoteInfo = DengiMinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81DBB0532C2861A000EB3D63 /* DengiMinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DengiMinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81DBB0562C2861A000EB3D63 /* DengiMinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DengiMinderApp.swift; sourceTree = "<group>"; };
+		81DBB0582C2861A000EB3D63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81DBB05A2C2861A200EB3D63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81DBB05D2C2861A200EB3D63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81DBB0632C2861A300EB3D63 /* DengiMinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DengiMinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81DBB0672C2861A300EB3D63 /* DengiMinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DengiMinderTests.swift; sourceTree = "<group>"; };
+		81DBB06D2C2861A300EB3D63 /* DengiMinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DengiMinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81DBB0712C2861A300EB3D63 /* DengiMinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DengiMinderUITests.swift; sourceTree = "<group>"; };
+		81DBB0732C2861A300EB3D63 /* DengiMinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DengiMinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81DBB0502C2861A000EB3D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DBB0602C2861A300EB3D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DBB06A2C2861A300EB3D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81DBB04A2C2861A000EB3D63 = {
+			isa = PBXGroup;
+			children = (
+				81DBB0552C2861A000EB3D63 /* DengiMinder */,
+				81DBB0662C2861A300EB3D63 /* DengiMinderTests */,
+				81DBB0702C2861A300EB3D63 /* DengiMinderUITests */,
+				81DBB0542C2861A000EB3D63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81DBB0542C2861A000EB3D63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81DBB0532C2861A000EB3D63 /* DengiMinder.app */,
+				81DBB0632C2861A300EB3D63 /* DengiMinderTests.xctest */,
+				81DBB06D2C2861A300EB3D63 /* DengiMinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81DBB0552C2861A000EB3D63 /* DengiMinder */ = {
+			isa = PBXGroup;
+			children = (
+				81DBB0562C2861A000EB3D63 /* DengiMinderApp.swift */,
+				81DBB0582C2861A000EB3D63 /* ContentView.swift */,
+				81DBB05A2C2861A200EB3D63 /* Assets.xcassets */,
+				81DBB05C2C2861A200EB3D63 /* Preview Content */,
+			);
+			path = DengiMinder;
+			sourceTree = "<group>";
+		};
+		81DBB05C2C2861A200EB3D63 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				81DBB05D2C2861A200EB3D63 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81DBB0662C2861A300EB3D63 /* DengiMinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				81DBB0672C2861A300EB3D63 /* DengiMinderTests.swift */,
+			);
+			path = DengiMinderTests;
+			sourceTree = "<group>";
+		};
+		81DBB0702C2861A300EB3D63 /* DengiMinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81DBB0712C2861A300EB3D63 /* DengiMinderUITests.swift */,
+				81DBB0732C2861A300EB3D63 /* DengiMinderUITestsLaunchTests.swift */,
+			);
+			path = DengiMinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81DBB0522C2861A000EB3D63 /* DengiMinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81DBB0772C2861A300EB3D63 /* Build configuration list for PBXNativeTarget "DengiMinder" */;
+			buildPhases = (
+				81DBB04F2C2861A000EB3D63 /* Sources */,
+				81DBB0502C2861A000EB3D63 /* Frameworks */,
+				81DBB0512C2861A000EB3D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DengiMinder;
+			productName = DengiMinder;
+			productReference = 81DBB0532C2861A000EB3D63 /* DengiMinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81DBB0622C2861A300EB3D63 /* DengiMinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81DBB07A2C2861A300EB3D63 /* Build configuration list for PBXNativeTarget "DengiMinderTests" */;
+			buildPhases = (
+				81DBB05F2C2861A300EB3D63 /* Sources */,
+				81DBB0602C2861A300EB3D63 /* Frameworks */,
+				81DBB0612C2861A300EB3D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81DBB0652C2861A300EB3D63 /* PBXTargetDependency */,
+			);
+			name = DengiMinderTests;
+			productName = DengiMinderTests;
+			productReference = 81DBB0632C2861A300EB3D63 /* DengiMinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81DBB06C2C2861A300EB3D63 /* DengiMinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81DBB07D2C2861A300EB3D63 /* Build configuration list for PBXNativeTarget "DengiMinderUITests" */;
+			buildPhases = (
+				81DBB0692C2861A300EB3D63 /* Sources */,
+				81DBB06A2C2861A300EB3D63 /* Frameworks */,
+				81DBB06B2C2861A300EB3D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81DBB06F2C2861A300EB3D63 /* PBXTargetDependency */,
+			);
+			name = DengiMinderUITests;
+			productName = DengiMinderUITests;
+			productReference = 81DBB06D2C2861A300EB3D63 /* DengiMinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81DBB04B2C2861A000EB3D63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					81DBB0522C2861A000EB3D63 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					81DBB0622C2861A300EB3D63 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 81DBB0522C2861A000EB3D63;
+					};
+					81DBB06C2C2861A300EB3D63 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 81DBB0522C2861A000EB3D63;
+					};
+				};
+			};
+			buildConfigurationList = 81DBB04E2C2861A000EB3D63 /* Build configuration list for PBXProject "DengiMinder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81DBB04A2C2861A000EB3D63;
+			productRefGroup = 81DBB0542C2861A000EB3D63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81DBB0522C2861A000EB3D63 /* DengiMinder */,
+				81DBB0622C2861A300EB3D63 /* DengiMinderTests */,
+				81DBB06C2C2861A300EB3D63 /* DengiMinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81DBB0512C2861A000EB3D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DBB05E2C2861A200EB3D63 /* Preview Assets.xcassets in Resources */,
+				81DBB05B2C2861A200EB3D63 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DBB0612C2861A300EB3D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DBB06B2C2861A300EB3D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81DBB04F2C2861A000EB3D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DBB0592C2861A000EB3D63 /* ContentView.swift in Sources */,
+				81DBB0572C2861A000EB3D63 /* DengiMinderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DBB05F2C2861A300EB3D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DBB0682C2861A300EB3D63 /* DengiMinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DBB0692C2861A300EB3D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DBB0722C2861A300EB3D63 /* DengiMinderUITests.swift in Sources */,
+				81DBB0742C2861A300EB3D63 /* DengiMinderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81DBB0652C2861A300EB3D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81DBB0522C2861A000EB3D63 /* DengiMinder */;
+			targetProxy = 81DBB0642C2861A300EB3D63 /* PBXContainerItemProxy */;
+		};
+		81DBB06F2C2861A300EB3D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81DBB0522C2861A000EB3D63 /* DengiMinder */;
+			targetProxy = 81DBB06E2C2861A300EB3D63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		81DBB0752C2861A300EB3D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81DBB0762C2861A300EB3D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81DBB0782C2861A300EB3D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DengiMinder/Preview Content\"";
+				DEVELOPMENT_TEAM = JS9779LZ9M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvin.DengiMinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81DBB0792C2861A300EB3D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DengiMinder/Preview Content\"";
+				DEVELOPMENT_TEAM = JS9779LZ9M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvin.DengiMinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81DBB07B2C2861A300EB3D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JS9779LZ9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvin.DengiMinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DengiMinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DengiMinder";
+			};
+			name = Debug;
+		};
+		81DBB07C2C2861A300EB3D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JS9779LZ9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvin.DengiMinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DengiMinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DengiMinder";
+			};
+			name = Release;
+		};
+		81DBB07E2C2861A300EB3D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JS9779LZ9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvin.DengiMinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DengiMinder;
+			};
+			name = Debug;
+		};
+		81DBB07F2C2861A300EB3D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JS9779LZ9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvin.DengiMinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DengiMinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81DBB04E2C2861A000EB3D63 /* Build configuration list for PBXProject "DengiMinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81DBB0752C2861A300EB3D63 /* Debug */,
+				81DBB0762C2861A300EB3D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81DBB0772C2861A300EB3D63 /* Build configuration list for PBXNativeTarget "DengiMinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81DBB0782C2861A300EB3D63 /* Debug */,
+				81DBB0792C2861A300EB3D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81DBB07A2C2861A300EB3D63 /* Build configuration list for PBXNativeTarget "DengiMinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81DBB07B2C2861A300EB3D63 /* Debug */,
+				81DBB07C2C2861A300EB3D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81DBB07D2C2861A300EB3D63 /* Build configuration list for PBXNativeTarget "DengiMinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81DBB07E2C2861A300EB3D63 /* Debug */,
+				81DBB07F2C2861A300EB3D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81DBB04B2C2861A000EB3D63 /* Project object */;
+}
