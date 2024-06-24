@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct DengiMinderApp: App {
+    @StateObject var transactionListVM = transactionListViewModel()
     var body: some Scene {
         WindowGroup {
             ContentView()
