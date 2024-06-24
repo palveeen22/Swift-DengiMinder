@@ -14,6 +14,10 @@
 		81DBB0682C2861A300EB3D63 /* DengiMinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DBB0672C2861A300EB3D63 /* DengiMinderTests.swift */; };
 		81DBB0722C2861A300EB3D63 /* DengiMinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DBB0712C2861A300EB3D63 /* DengiMinderUITests.swift */; };
 		81DBB0742C2861A300EB3D63 /* DengiMinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DBB0732C2861A300EB3D63 /* DengiMinderUITestsLaunchTests.swift */; };
+		81DBB0812C28F8C600EB3D63 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DBB0802C28F8C600EB3D63 /* Extensions.swift */; };
+		81DBB0832C29001100EB3D63 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DBB0822C29001100EB3D63 /* TransactionModel.swift */; };
+		81DBB0852C29018400EB3D63 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DBB0842C29018400EB3D63 /* PreviewData.swift */; };
+		81DBB0872C2902C200EB3D63 /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DBB0862C2902C200EB3D63 /* TransactionRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		81DBB06D2C2861A300EB3D63 /* DengiMinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DengiMinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81DBB0712C2861A300EB3D63 /* DengiMinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DengiMinderUITests.swift; sourceTree = "<group>"; };
 		81DBB0732C2861A300EB3D63 /* DengiMinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DengiMinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		81DBB0802C28F8C600EB3D63 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		81DBB0822C29001100EB3D63 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		81DBB0842C29018400EB3D63 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		81DBB0862C2902C200EB3D63 /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +104,12 @@
 			children = (
 				81DBB0562C2861A000EB3D63 /* DengiMinderApp.swift */,
 				81DBB0582C2861A000EB3D63 /* ContentView.swift */,
+				81DBB0862C2902C200EB3D63 /* TransactionRow.swift */,
 				81DBB05A2C2861A200EB3D63 /* Assets.xcassets */,
 				81DBB05C2C2861A200EB3D63 /* Preview Content */,
+				81DBB0802C28F8C600EB3D63 /* Extensions.swift */,
+				81DBB0822C29001100EB3D63 /* TransactionModel.swift */,
+				81DBB0842C29018400EB3D63 /* PreviewData.swift */,
 			);
 			path = DengiMinder;
 			sourceTree = "<group>";
@@ -257,7 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81DBB0852C29018400EB3D63 /* PreviewData.swift in Sources */,
+				81DBB0832C29001100EB3D63 /* TransactionModel.swift in Sources */,
 				81DBB0592C2861A000EB3D63 /* ContentView.swift in Sources */,
+				81DBB0872C2902C200EB3D63 /* TransactionRow.swift in Sources */,
+				81DBB0812C28F8C600EB3D63 /* Extensions.swift in Sources */,
 				81DBB0572C2861A000EB3D63 /* DengiMinderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

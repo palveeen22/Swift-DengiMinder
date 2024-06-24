@@ -7,10 +7,29 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Hello, world!")
+        NavigationView {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 24) {
+                    // MARK: Title
+                    Text("Title")
+                        .font(.title2)
+                        .bold()
+                        .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+                }
+                .padding()
+            }
+            .background(Color.customBackground)
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                // MARK: Notification Icon
+                ToolbarItem {
+                    Image(systemName: "bell.badge")
+                        .symbolRenderingMode(.palette)
+                        .foregroundStyle(.red,Color.customIcon)
+                }
+            }
         }
-        .background(Color.black)
+        .navigationViewStyle(.stack)
     }
 }
 
